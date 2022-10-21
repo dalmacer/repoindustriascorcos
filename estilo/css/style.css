@@ -25,14 +25,19 @@
     display:grid;
     grid-template-columns: repeat(4, 1fr);
     padding: 2rem;
-    gap:1rem;
+    gap: 3rem;
     font-size: larger;
     font-weight: bold;
     text-align: center;
-
 }
-
-
+img {
+    margin-left: 1px;
+    
+}
+.src{width: 100%;
+     position: center;
+     font-size: 25px;
+}
  .href{color:green;
        font-family:cursive ;
 }
@@ -46,12 +51,6 @@
 .px30{
     font-size: 30px;}
 
-
-
-
-
-
-
 .ul{
     list-style-type: disc;
 font-size: 25px;}
@@ -63,7 +62,6 @@ font-size: 25px;}
     flex-direction: column;
 
 }
-
 
 
 .hero__slogan{
@@ -119,7 +117,7 @@ font-size: 25px;}
     background:white;}
 
 .lista{
-       font-size: 2rem;
+       font-size: 1rem;
        color: black;
        background-color:lightgreen;
        border-style: double;
@@ -131,7 +129,7 @@ font-size: 25px;}
 .block__clientes{
     display:grid;
     grid-template-columns: repeat(2, 1fr);
-    padding: 4rem;
+    padding: 8rem;
     gap:1rem;
     grid-area:auto;
     font-size: larger;
@@ -160,3 +158,8 @@ font-size: 25px;}
 }
 .footer{font-size: 2rem;
 background-color: royalblue;}
+
+.title{font: size 40px;
+       text-align: center;
+       color: blue;
+}

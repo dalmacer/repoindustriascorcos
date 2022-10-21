@@ -6,23 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Document</title>
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-
+    
     <link rel="stylesheet" href="./estilo/css/style.css">
 </head>
 <body>
     <header class="background__header">
-        <a href="#"><img src="./img/logocorcos02.png" alt="logo"></a>
+        <a href="../index.html"><img src="./img/logocorcos02.png" alt="logo"></a>
         <nav>
             
         
         
              </ol>
               <hr><td></td>
-              <table border-box="5" cellspacing="10" cellpadding="20" width="100%"
-            }>
+             <table class="container mt-5" class="row" border-box="5" cellspacing="10" cellpadding="20" width="100%"
+            >
                 
                 <th><a class="table__anchor" href="a">INICIO</a></th>
                 <th><a class="table__anchor" href="./vistas/productos.html">PRODUCTOS</a></th>
@@ -35,36 +35,42 @@
     </header>
         
 
-    <main>
-<section class="hero">
+ <main>
+    <section class="hero">
     <div class="hero__wrapper">
         <h1 class="hero__heading">NUESTRA EMPRESA</h1>
 
         
     </div>
     </section>
-
-    <section class="block">
-        
-           <div><img width="130%" class="background-image"  src="C:\Users\drcer\Documents\CURSO_CODER_DW\IND_CORCOS\img\SOLDADORASPUNTO_DOS_COLORES.png" alt="SOLDADORASPUNTO_DOS_COLORES"></div>
-           <a class=btn-wsp aria-label="Chat on WhatsApp"       href="https://wa.me/+5491168573170"> <img alt="ChatenWhatsApp" src="C:\Users\drcer\Documents\CURSO_CODER_DW\IND_CORCOS\img\icon-whatsapp.png"> 
-           </a>
-           <div><p class="text">Hemos hecho un compromiso con la calidad y la satisfacción al cliente.
-            Saludamos a Ustedes atentamente y los invitamos a contactarse con nosotros
+            <div><p class="text">Hemos hecho un compromiso con la calidad y la satisfacción al cliente.
+             Saludamos a Ustedes atentamente y los invitamos a contactarse con nosotros
              y recorrer las distintas secciones de nuestra web.</p>
-             <p class="text">Ing. Jorge Corcos</p></div>
+             <p class="text">Ing. Jorge Corcos</p>
+             </div>
+    <section class="block">
+             <div><img width="90%" src="C:\Users\drcer\Documents\CURSO_CODER_DW\IND_CORCOS\img\SOLDADORPUNTO.png" alt="SOLDADORPUNTO"></div>
+             
+              
+
+               <a class=btn-wsp aria-label="Chat on WhatsApp"       href="https://wa.me/+5491168573170"> <img alt="ChatenWhatsApp" src="C:\Users\drcer\Documents\CURSO_CODER_DW\IND_CORCOS\img\icon-whatsapp.png"> 
+               </a>
+           
              <div><a class="btn" data-aos="zoom-in-up"  data-aos-delay="300"
               href="./vistas/nosotros.html">CONÓZCANOS</a></div>
-             <div><img src="C:\Users\drcer\Documents\CURSO_CODER_DW\IND_CORCOS\img\SOLDADORPUNTO.png" alt="SOLDADORPUNTO"></div>
+
+              <div><img width="200%" class="background-image"  src="C:\Users\drcer\Documents\CURSO_CODER_DW\IND_CORCOS\img\SOLDADORASPUNTO_DOS_COLORES.png" alt="SOLDADORASPUNTO_DOS_COLORES"></div>
 
             
     </section>    
       
     <section>
         <h2>ALGUNOS DE NUESTROS PRODUCTOS Y PROYECTOS SON:</h2>
-        <article class="block">
+        <article class="container">
+
           
-            <div><video src="./img/MMP 10.mp4" autoplay muted loop width="540" height="380">
+            <div class="row">
+              <video src="./img/MMP 10.mp4" autoplay muted loop width="540" height="380">
              </video>
                <p>𝐒𝐨𝐥𝐝𝐚𝐝𝐮𝐫𝐚 𝐚 𝐭𝐨𝐩𝐞- 𝐒𝐮𝐞𝐥𝐝𝐞 𝐚𝐫𝐨𝐬 𝐩𝐞𝐫𝐟𝐞𝐜𝐭𝐨𝐬
                Dispositivo para soldadura a tope de máquinas CORCOS MPP10 y MPP13
@@ -114,18 +120,9 @@
           </ul>
         </article> 
     </section>
-    <article>
-    <div class="logo__instagram">
-        <a href="https://www.instagram.com/industriascorcos/">
-            <img class="icono" src="./img/logo instagram.jfif" alt="instagram" width="15%">
-            
-        </a>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d209788.60264859613!2d-58.423834!3d-34.75693!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd739c20fc2895965!2sIndustrias%20Corcos!5e0!3m2!1ses!2sar!4v1664367720080!5m2!1ses!2sar" width="15%" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-    </div>
-   </article>
+   
     
-</main>
+  </main>
 <section class="video">
         
     <h2 class="video__titulo">MAS DE 50 AÑOS EN LA INDUSTRIA</h2>
@@ -133,7 +130,18 @@
     <video id="background-video"  autoplay loop muted src="./img/video1.mp4"width="100%">
     </video>
   </section>
+  <section class="container">
+    <div class="row">
+  <div class="logo__instagram">
+      <a href="https://www.instagram.com/industriascorcos/">
+          <img class="icono" src="./img/logo instagram.jfif" alt="instagram" width="5%"></a>
+          
+    
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d209788.60264859613!2d-58.423834!3d-34.75693!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd739c20fc2895965!2sIndustrias%20Corcos!5e0!3m2!1ses!2sar!4v1664367720080!5m2!1ses!2sar" width="15%" height="100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
+  </div>
+</section>
+  
 
 <section>
 <footer>
